@@ -1,0 +1,49 @@
+Command line arguments: /pwd:[OLD_PASSWORD] [/list] [/xpwd:NEW_PASSWORD] [/enter:DRIVE_LETTER] [/exit:DRIVE_LETTER] [/commit:FILE_OR_DIRECTORY] [/now] [/reboot] [/shutdown]
+
+  : /pwd:[OLD_PASSWORD]
+    Specify the password, you can do nothing if you don't specify a correct password.
+    Examples:
+      CmdTool.exe /pwd:123456
+      CmdTool.exe /pwd:
+
+  : /list
+    List all the drives in Shadow Mode.
+    Examples:
+      CmdTool.exe /list
+
+  : /xpwd:NEW_PASSWORD
+    Change the password. If you want to clear the password, please set NEW_PASSWORD to empty.
+    Examples:
+      CmdTool.exe /pwd:oldpassword /xpwd:123456
+      CmdTool.exe /pwd:oldpassword /xpwd:
+
+  : /enter:DRIVE_LETTER
+    Place the specified drive into Shadow Mode. Reboot is required for this change to take effect.
+    Examples:
+      CmdTool.exe /enter:CDE
+
+  : /exit:DRIVE_LETTER
+    Place the specified drive into Normal Mode. Reboot is required for this change to take effect.
+    Examples:
+      CmdTool.exe /exit:CDE
+
+  : /commit:FILE_OR_DIRECTORY
+    Commit the specified file or directory.
+    Examples:
+      CmdTool.exe /commit:"C:\Test\test.txt"
+      CmdTool.exe /commit:"C:\Test"
+
+  : /now
+    Task effects immediately. When use with /exit, it may fail, you'd better reboot your computer to exit shadow mode.
+    Examples:
+      CmdTool.exe /enter:CD /now
+
+  : /reboot
+    Reboot your computer.
+    Examples:
+      CmdTool.exe /reboot
+
+  : /shutdown
+    Shutdown your computer.
+    Examples:
+      CmdTool.exe /shutdown
