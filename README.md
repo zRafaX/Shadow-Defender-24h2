@@ -30,3 +30,5 @@ O **Shadow Defender** é uma ferramenta que permite executar o sistema operacion
 2. Faça o download do instalador.
 3. Execute o instalador (install.exe) e siga as instruções na tela.
 4. Reinicie o sistema para ativar o **Shadow Defender**.
+
+(Former Developer: https://www.shadowdefender.com)
