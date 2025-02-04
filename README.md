@@ -13,7 +13,7 @@ O **Shadow Defender** é uma ferramenta que permite executar o sistema operacion
 
 ---
 
-## 🚀 Funcionalidades
+## 🚀 Correções
 
 - ✅ **Compatibilidade com Windows 11 24H2**: Funciona na versão mais recente do Windows 11.
 - 🛠️ **Correções de Bugs**: Resolvi vários problemas de instabilidade e conflitos com drivers atualizados.
