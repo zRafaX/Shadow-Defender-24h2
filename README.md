@@ -20,6 +20,7 @@ O **Shadow Defender** é uma ferramenta que permite executar o sistema operacion
 - 🚀 **Desempenho Otimizado**: Melhorias na eficiência do uso de recursos do sistema.
 - 🔒 **Proteção Aprimorada**: Adicionei alguns ajustes para melhorar a segurança.
 - 📂 **Suporte a NVMe e SSD**: Agora funciona melhor com SSD.
+- 🟩 **Tradução PT/BR**: Toda a interface do programa agora foi traduzida para PT/BR.
 
 ---
 
