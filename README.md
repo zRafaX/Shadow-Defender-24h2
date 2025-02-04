@@ -1,6 +1,6 @@
 # Shadow Defender (Reescrito) para Windows 11 versão 24H2
 
-![GitHub](https://img.shields.io/badge/Status-%20Funcionando-yellow)
+![GitHub](https://img.shields.io/badge/Status-%20Funcionando-green)
 ![GitHub](https://img.shields.io/badge/Plataforma-Windows%2011%2024H2-blue)
 
 ---
